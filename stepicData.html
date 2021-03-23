@@ -1,0 +1,19 @@
+
+  <meta charset="utf-8">
+
+  <script>
+
+let week = ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'];
+let a = "04 August 1909 00:24";
+let b = "03 November 1909 06:54";
+
+let Date1 = new Date(a);
+let Date2 = new Date(b);
+
+if (Date1 > Date2) {
+    WeekDay = (week[Date1.getDay()]);
+}else {
+    WeekDay = (week[Date2.getDay()]);
+}
+  alert (WeekDay);
+  </script>

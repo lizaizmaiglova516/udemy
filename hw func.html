@@ -1,0 +1,32 @@
+
+  <meta charset="utf-8">
+
+<script>
+
+const n = Math.floor(Math.random() * 11)+1;
+console.log(n);
+
+function Number() { 
+  while(true) {
+ 
+ let x = parseInt(prompt("Введите число от 1 до 10")); 
+
+if (isNaN(x) || x ==null) {alert("Введите число");
+
+} else if (x<n) {
+  alert("Введите больше");
+} else if  (x>n) {
+      alert("Введите меньше");
+    } else if (x === n) {alert ("Верно");
+    break;
+  }
+  }
+}
+    
+Number ();
+    
+
+  
+ 
+ 
+</script>
